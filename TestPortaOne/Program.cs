@@ -15,7 +15,7 @@ namespace TestPortaOne
         }
         public static String[] ChooseTheChar(string text)
         {
-            char[] separators = new char[] { ' ', '.', '\n', '\t','--' };
+            char[] separators = new char[] { ' ', '.', '\n', '\t' };
 
             String []  exclusiveChars = text.Split(separators, StringSplitOptions.RemoveEmptyEntries);
 
